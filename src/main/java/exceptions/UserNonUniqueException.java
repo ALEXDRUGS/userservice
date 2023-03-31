@@ -1,2 +1,7 @@
-package services.impl;public class UserNonUniqueException {
+package exceptions;
+
+public class UserNonUniqueException extends RuntimeException {
+    public void getStackTrace(String error) {
+
+    }
 }
